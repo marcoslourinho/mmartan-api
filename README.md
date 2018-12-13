@@ -61,9 +61,6 @@ nodemon
 
 and your REST API is ready to your development procedures!
 
-Obs: To access the backend features, you can replace the baseURL with **"https://mmartan-api.herokuapp.com/api/v1"** in *mmartan-view/src/services/api.js* to access resources in production or use **"http://localhost:3000/api/v1"** to consume the local API.
-
-
 ## View Settings
 
 1. Access project:
@@ -80,6 +77,9 @@ npm install
 ````
 npm start
 ````
+
+Obs: To access the backend features, you can replace the baseURL with **"https://mmartan-api.herokuapp.com/api/v1"** in *mmartan-view/src/services/api.js* to access resources in production or use **"http://localhost:3000/api/v1"** to consume the local API.
+
 
 **And your local project is Done!** :)
 
