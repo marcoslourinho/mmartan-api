@@ -1,7 +1,6 @@
 import * as mongoose from 'mongoose';
 import { productSchema } from '../models/Product';
 import { Request, Response } from 'express';
-import token from 'token-generator';
 
 const Product = mongoose.model('Product', productSchema);
 
